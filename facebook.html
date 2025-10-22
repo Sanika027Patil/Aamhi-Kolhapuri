@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aamhi Kolhapuri - Facebook</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            text-align: center;
+        }
+        .container {
+            max-width: 500px;
+            margin: 20px auto;
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .profile img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        .username {
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .post {
+            margin-top: 10px;
+            padding: 10px;
+            background: #fff;
+            border-radius: 5px;
+            text-align: left;
+        }
+        .like-button {
+            cursor: pointer;
+            color: gray;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        .liked {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <a href="contact.html" class="back-button">Back to Home</a>
+    <div class="container">
+        <div class="profile">
+            <img src="images/logo.jpeg" alt="Profile Pic">
+            <span class="username">Aamhi Kolhapuri</span>
+        </div>
+        <div class="post">
+            <p>Kolhapur is not just a city, it's an identity! 💙 #AamhiKolhapuri</p>
+        </div>
+        <p class="like-button" onclick="toggleLike(this)">👍 Like</p>
+    </div>
+
+    <script>
+        function toggleLike(element) {
+            element.classList.toggle('liked');
+        }
+    </script>
+</body>
+</html>

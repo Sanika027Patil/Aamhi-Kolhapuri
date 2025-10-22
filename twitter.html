@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aamhi Kolhapuri - Twitter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e6ecf0;
+            text-align: center;
+        }
+        .container {
+            max-width: 400px;
+            margin: 20px auto;
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .profile img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        .username {
+            font-weight: bold;
+        }
+        .tweet {
+            margin-top: 10px;
+            padding: 10px;
+            background: #f5f8fa;
+            border-radius: 5px;
+            text-align: left;
+        }
+        .like-button {
+            cursor: pointer;
+            color: gray;
+        }
+        .liked {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <a href="contact.html" class="back-button">Back to Home</a>
+    <div class="container">
+        <div class="profile">
+            <img src="images/logo.jpeg" alt="Profile Pic">
+            <span class="username">@aamhi_kolhapuri</span>
+        </div>
+        <div class="tweet">
+            <p>Kolhapur is not just a place, it's an emotion! ❤️ #AamhiKolhapuri</p>
+        </div>
+        <p class="like-button" onclick="toggleLike(this)">❤ Like</p>
+    </div>
+
+    <script>
+        function toggleLike(element) {
+            element.classList.toggle('liked');
+        }
+    </script>
+</body>
+</html>

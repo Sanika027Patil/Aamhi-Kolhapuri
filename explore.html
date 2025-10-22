@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aamhi Kolhapuri - Explore</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f4f4f4;
+        }
+        .navbar {
+            background: #d32f2f;
+            padding: 15px;
+            text-align: center;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .explore-container {
+            max-width: 900px;
+            margin: 20px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            padding: 15px;
+        }
+        .explore-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+            text-align: center;
+            transition: 0.3s;
+        }
+        .explore-card:hover {
+            transform: scale(1.05);
+        }
+        .explore-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .explore-card h3 {
+            margin: 10px 0;
+            color: #d32f2f;
+        }
+        .explore-card p {
+            padding: 0 10px 15px;
+        }
+        .video-container {
+            text-align: center;
+            margin: 20px auto;
+        }
+        video {
+            width: 700px;
+            height: auto;
+            border-radius: 20px;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background: #222;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">Explore Kolhapur</div>
+    <a href="index.html" class="back-button">Back to Home</a>
+
+    <div class="explore-container">
+        <div class="explore-card">
+            <img src="images/Mahalaxmi_temple.jpeg" alt="Temple">
+            <h3>Mahalakshmi Temple</h3>
+            <p>A historic temple dedicated to Goddess Mahalakshmi, a must-visit in Kolhapur.</p>
+        </div>
+        <div class="explore-card">
+            <img src="images/jotiba temple.jpg" alt="Temple">
+            <h3>Jotiba Temple</h3>
+            <p>A historic temple dedicated to Lord Jotiba, a must-visit in Kolhapur.</p>
+        </div>
+        <div class="explore-card">
+            <img src="images/Khidrapur1.jpeg" alt="Temple">
+            <h3>Khidrapur Temple</h3>
+            <p>A temple dedicated to Lord Shiva, unique confluence of divine presence.</p>
+        </div>
+        <div class="explore-card">
+            <img src="images/Panhala.jpeg" alt="Fort">
+            <h3>Panhala Fort</h3>
+            <p>Explore the grandeur of Panhala Fort and witness breathtaking views.</p>
+        </div>
+        <div class="explore-card">
+            <img src="images/rankala.jpg" alt="Lake">
+            <h3>Rankala Lake</h3>
+            <p>A popular evening spot and most famous tourist spot</p>
+        </div>
+        <div class="explore-card">
+            <img src="images/Misal.jpeg" alt="Food">
+            <h3>Kolhapuri Misal</h3>
+            <p>Enjoy the world-famous spicy Kolhapuri Misal, an explosion of flavors!</p>
+        </div>
+    </div>
+    <div>
+        <div class="video-container">
+            <h2><font face="Times New Roman" color="#750035">Kolhapur in Motion</font></h2>
+            <p>Experience the beauty and culture of Kolhapur through this video.</p>
+            <video id="kolhapurVideo" width="700" controls>
+                <source src="images/invideo-ai-1080 Aamhi Kolhapuri_ Exploring Tradition 2025-03-25.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    <div class="footer">&copy; 2025 Aamhi Kolhapuri | All Rights Reserved</div>
+</body>
+</html>
