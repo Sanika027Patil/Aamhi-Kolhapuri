@@ -1,0 +1,13 @@
+.cart-item {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+.cart-item img {
+  border-radius: 10px;
+}
+.cart-item button {
+  margin: 0 5px;
+}

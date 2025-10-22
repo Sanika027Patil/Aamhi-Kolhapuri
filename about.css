@@ -1,0 +1,88 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background: #B22222;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.about-section, .team-section, .contact-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.about-section h2, .team-section h2, .contact-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #B22222;
+}
+
+.about-section p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 18px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.team-member {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    transition: transform 0.3s;
+}
+
+.team-member img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.team-member h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.team-member p {
+    font-size: 16px;
+    color: #666;
+}
+
+.team-member:hover {
+    transform: translateY(-10px);
+}
+
+.contact-section a {
+    text-decoration: none;
+    color: #B22222;
+    font-weight: bold;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}

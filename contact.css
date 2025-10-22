@@ -1,0 +1,90 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Contact Section */
+.contact {
+    padding: 40px;
+    text-align: center;
+    background: #f8f8f8;
+}
+
+h2 {
+    color: #d9534f;
+    margin-bottom: 10px;
+}
+
+.contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #d9534f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #c9302c;
+}
+
+.contact-info {
+    flex: 1;
+    min-width: 250px;
+    padding: 20px;
+}
+
+.contact-info h3 {
+    color: #d9534f;
+    margin-bottom: 5px;
+}
+
+.contact-info p {
+    margin-bottom: 15px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #d9534f;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Google Map */
+.map {
+    margin-top: 20px;
+}
